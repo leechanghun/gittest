@@ -1,0 +1,91 @@
+﻿
+/* Reset Style */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button{margin:0;padding:0}
+fieldset,img{border:0 none}
+dl,ul,ol,menu,li {list-style:none}
+blockquote, q {quotes: none}
+blockquote:before, blockquote:after,q:before, q:after {content:'';content:none}
+input,select,textarea,button {vertical-align:middle}
+button {border:0 none;background-color:transparent;cursor:pointer}
+body {position:relative;background:#fff}
+body,th,td,input,select,textarea,button {font-size:12px;line-height:1.5;font-family:Helvetica;color:#333}
+a {color:#333;text-decoration:none}
+a:active, a:hover {text-decoration:underline}
+address,caption,cite,code,dfn,em,var {font-style:normal;font-weight:normal}
+button::-moz-focus-inner{border:0;padding:0;}
+/* Headings */
+h1, h2, h3, h4, h5, h6 {margin:1em 0 0.5em;line-height:1.25em;}
+h1 {font-size:3.5em;}
+h2 {font-size:2.5em;}
+h3 {font-size:2em;}
+h4 {font-size:1.5em;}
+h5 {font-size:1.25em;}
+h6 {font-size:1em;}
+h1 img {margin:0;vertical-align:middle;}
+
+
+/* Style*/
+#main {
+    margin:0 auto;padding:0 34px;width:632px;
+}
+.ui-table {
+    border-collapse:collapse;
+    width:630px;
+}
+.ui-table thead { border-top:1px solid #e9f1ed;border-bottom:1px solid #80b199;border-left: 1px solid #c2dace; }
+.ui-table th { 
+    height:40px;
+    border-right:1px solid #9dc3b1;
+    background:#22774e;
+    color:#fff;
+}
+.ui-table td {
+    height:38px;
+    border-bottom:2px solid #a0a0a0;
+    text-align:center;
+}
+.w53 { width:53px; }
+.w65 { width:65px; }
+.w85 { width:85px; }
+.w112 { width:112px; }
+.w120 { width:120px; }
+.w160 { width:160px; }
+.w267 { width:267px; }
+.w278 { width:278px; }
+.w86 { width:86px; }
+.w90 { width:90px; }
+.w166 { width:166px; }
+.w288 { width:288px; }
+.va_center { vertical-align:middle; }
+.hide { display:none; }
+
+#createUser {
+    position:relative;
+    width:632px;height:1091px;margin-bottom:30px;
+    background:url('../images/bg_createuser.png') no-repeat;
+}
+
+.form { 
+    position:absolute;top:346px;left:145px; 
+}
+.form .block { position:relative;display:block;margin-bottom:2px;padding:4px;width:478px;height:31px;line-height:31px; }
+.form .block input, .block select { width:474px;height:27px;vertical-align:top; }
+.form .block select { width:50px;height:31px; }
+.form .block #phone2 { width:80px; }
+.form .block #phone3 { width:80px; }
+.form_option {
+    position:absolute;top:660px;left:241px;
+}
+.form_option .block { margin-bottom:15px; }
+.form_option .block .rd { display:inline-block;*display:inline;width:16px;height:16px;vertical-align:middle;text-align:center; }
+.form_option .block #rd01_off,
+.form_option .block #rd02_off { margin-left:43px;}
+.form_submit {
+    position:absolute;top:876px;left:462px;
+}
+.form_submit .btn_submit { width:150px;height:75px;border:none;background:#eee;opacity:0;filter:Alpha(Opacity=0); }
+.form_submit .btn_submit:hover { cursor:pointer; }
+
+#preRegist { position:relative;}
+#preRegist .btn_preregist { position:absolute; top:199px; left:462px; width:138px;height:44px;background:#eee;opacity:0;filter:Alpha(Opacity=0); border:none; }
+#preRegist .btn_preregist:hover { cursor:pointer;}
